@@ -126,7 +126,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Imagenes\usuario_32.png" />
-    <Content Include="Login.aspx" />
+    <Content Include="Login\Login.aspx" />
     <Content Include="Registros\RegistrodeUsuarios.aspx" />
     <Content Include="Start.aspx" />
     <Content Include="favicon.ico" />
@@ -202,11 +202,11 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
+    <Compile Include="Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
+    <Compile Include="Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registros\RegistrodeUsuarios.aspx.cs">

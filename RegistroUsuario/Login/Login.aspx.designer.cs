@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RegistroUsuario {
+namespace RegistroUsuario.Login {
     
     
     public partial class Login {
