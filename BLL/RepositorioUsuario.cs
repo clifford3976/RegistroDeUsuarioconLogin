@@ -22,8 +22,8 @@ namespace BLL
 
             if (repositorio.GetList(filtrar).Count() != 0)
                 FormsAuthentication.RedirectFromLoginPage(usuario.NombreUsuario, true);
-            else
-               ScriptManager.RegisterStartupScript(page, typeof(Page), "toastr_message", script: "toastr['error'] ('NombreUsuario o Clave Incorrecto');", addScriptTags: true);
+            //else
+              //ScriptManager.RegisterStartupScript(page, typeof(Page), "toastr_message", script: "toastr['error'] ('NombreUsuario o Clave Incorrecto');", addScriptTags: true);
         }
     }
 }

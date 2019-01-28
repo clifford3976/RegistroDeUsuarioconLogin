@@ -53,16 +53,25 @@
                 <li class="nav-item">
                     <a class="nav-link" href="http://localhost:51511/Start.aspx">Start</a>
 
+
+
                      <!-- Dropdown -->
                     <li class="nav-item dropdown" style="width:400px">
-                        <a class="nav-link dropdown-toggle" href="#" id="Cuentas" data-toggle="dropdown">US
+                        <a class="nav-link dropdown-toggle" href="#" id="US" data-toggle="dropdown">US
                         </a>
                         <div class="dropdown-menu bg-success">
-                            <a class="dropdown-item" href="#">Acceso</a>
+                            <a class="dropdown-item" href="#">Acceder</a>
+                        </div>
+                    </li>  
+                <li class="nav-item dropdown" style="width:800px">
+                        <a class="nav-link dropdown-toggle" href="#" id="Login" data-toggle="dropdown">Login
+                        </a>
+                        <div class="dropdown-menu bg-success">
+                            <a class="dropdown-item" href="http://localhost:51511/Login.aspx">Iniciar Sesion</a>
                         </div>
                     </li>
 
-                     <li class="nav-item dropdown" style="width:400px">
+                     <li class="nav-item dropdown" style="width:1000px">
                     <a class="nav-link dropdown-toggle" href="#" id="Registros" data-toggle="dropdown">Registros
                     </a>
                     <div class="dropdown-menu bg-success">
@@ -72,17 +81,20 @@
                     </div>
                 </li>
 
-                <li class="nav-item dropdown" style="width:400px">
+                <li class="nav-item dropdown" style="width:1200px">
                     <a class="nav-link dropdown-toggle"  href="#" id="Consultas" data-toggle="dropdown">Consultas
                     </a>
                     <div class="dropdown-menu bg-success ">
-                        <a class="dropdown-item" href="">Consulta Usuario</a>
+                        <a class="dropdown-item" href="http://localhost:51511/Consultas/ConsultasdeUsuarios.aspx">Consulta Usuario</a>
                         <a class="dropdown-item" href="#">Consulta Clientes</a>
                         <a class="dropdown-item" href="#">Consulta Ropas</a>
                     </div>
                 </li>
+                
                 </ul>
+               
                 </nav>
+            </div>
                      </header>
 
        
